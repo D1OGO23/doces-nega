@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces da Nega | Brigadeiros, Trufas e Ovos de Páscoa Artesanais</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Doces da Nega - Brigadeiros gourmet, bolos e sobremesas artesanais feitos com ingredientes de qualidade. Encomende online e delicie-se!">
+    <meta name="author" content="Doces da Nega">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Doces da Nega - Doces Artesanais">
+    <meta property="og:description" content="Brigadeiros, trufas e ovos de Páscoa feitos artesanalmente.">
+    <meta property="og:image" content="img/logo-doces-da-nega.jpeg">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@500;600&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Topo -->
+    <div class="topbar">
+        🍫 Doces artesanais feitos com amor
+    </div>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo-area">
+            <img src="logo-doces-da-nega.jpeg" alt="Logo Doces da Nega" class="logo">
+            <h1>Doces da Nega</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Banner -->
+        <section class="banner">
+            <h2>Doces artesanais que encantam</h2>
+            <p>
+                Brigadeiros gourmet, bolos e sobremesas feitas com ingredientes de qualidade.
+            </p>
+            <a href="#produtos" class="btn-banner">
+                Ver Produtos
+            </a>
+        </section>
+
+        <!-- Produtos -->
+        <section id="produtos">
+            <h2>Nossos Doces</h2>
+            <section class="categorias">
+
+                <div class="lista-categorias">
+
+                    <button data-categoria="docinhos">Docinhos</button>
+
+                    <button data-categoria="ovo-pascoa">Ovo de Pascoa</button>
+
+                    <button data-categoria="trufa">Trufas</button>
+
+                    <button data-categoria="todos">Todos</button>
+
+                </div>
+
+            </section>
+            <div class="produtos">
+                <!-- Produto -->
+                <article class="produto" data-categoria="docinhos">
+
+                    <div class="selo">Mais vendido</div>
+                    <div class="produto-img">
+                        <img src="brigadeiro.jpeg" alt="Brigadeiro gourmet" class="img-produto" loading="lazy">
+                    </div>
+                    <div class="produto-info">
+                        <h3>Brigadeiro Gourmet</h3>
+
+                        <p class="descricao">
+                            Brigadeiro artesanal feito com chocolate belga.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 3,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Brigadeiro Gourmet" data-preco="3"
+                            data-img="brigadeiro.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto" data-categoria="ovo-pascoa">
+                    <div class="produto-img">
+                        <img src="ovo-pascoa-leite-ninho-chocolate.jpeg"
+                            alt="Ovo de Pascoa de Leite Ninho com Chocolate" class="img-produto" loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Ovo de Pascoa de Leite Ninho com Chocolate</h3>
+
+                        <p class="descricao">
+                            Ovo de Pascoa com cobertura de chocolate branco e recheio de leite ninho.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 35,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Ovo de Pascoa de Leite Ninho com Chocolate"
+                            data-preco="35" data-img="ovo-pascoa-leite-ninho-chocolate.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+                </article>
+
+                <article class="produto" data-categoria="trufa">
+                    <div class="selo">Promoção</div>
+                    <div class="produto-img">
+                        <img src="trufa-leite-ninho.jpeg" alt="Trufa de Leite Ninho" class="img-produto" loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Trufa de Leite Ninho</h3>
+
+                        <p class="descricao">
+                            Trufa crocante com recheio de leite ninho.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 3,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Trufa de Leite Ninho" data-preco="3"
+                            data-img="trufa-leite-ninho.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+                </article>
+
+                <article class="produto" data-categoria="trufa">
+                    <div class="selo">Novo</div>
+                    <div class="produto-img">
+                        <img src="trufa-pacoca.jpeg" alt="Trufa de Pacoca" class="img-produto" loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Trufa de Pacoca</h3>
+
+                        <p class="descricao">
+                            Trufa crocante com recheio de pacoca.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 4,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Trufa de Pacoca" data-preco="4"
+                            data-img="trufa-pacoca.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto" data-categoria="ovo-pascoa">
+                    <div class="selo">Promoção</div>
+                    <div class="produto-img">
+                        <img src="ovo-pascoa-ouro-branco.jpeg" alt="Ovo de Pascoa de Ouro Branco" class="img-produto"
+                            loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Ovo de Pascoa de Ouro Branco</h3>
+
+                        <p class="descricao">
+                            Ovo de Pascoa com cobertura de chocolate branco e recheio de creme.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 35,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Ovo de Pascoa de Ouro Branco" data-preco="35"
+                            data-img="ovo-pascoa-ouro-branco.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+                </article>
+
+
+                <article class="produto" data-categoria="ovo-pascoa">
+                    <div class="produto-img">
+                        <img src="ovo-pascoa-brigadeiro.jpeg" alt="Ovo de Pascoa de Brigadeiro" class="img-produto"
+                            loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Ovo de Pascoa de Brigadeiro</h3>
+
+                        <p class="descricao">
+                            Ovo de Pascoa com cobertura de brigadeiro.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 45,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Ovo de Pascoa de Brigadeiro" data-preco="45"
+                            data-img="ovo-pascoa-brigadeiro.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="produto" data-categoria="trufa">
+
+                    <div class="selo">Mais vendido</div>
+
+                    <div class="produto-img">
+                        <img src="trufa-maracuja.jpeg" alt="Trufa de Maracuja" class="img-produto" loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Trufa de Maracuja</h3>
+
+                        <p class="descricao">
+                            Trufa crocante com recheio de maracuja.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 3,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Trufa de Maracuja" data-preco="3"
+                            data-img="trufa-maracuja.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="produto" data-categoria="trufa">
+
+                    <div class="produto-img">
+                        <img src="trufa-morango.jpeg" alt="Trufa de Morango" class="img-produto" loading="lazy">
+                    </div>
+
+                    <div class="produto-info">
+                        <h3>Trufa de Morango</h3>
+
+                        <p class="descricao">
+                            Trufa crocante com recheio de morango.
+                        </p>
+
+                        <div class="avaliacao">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+
+                        <div class="preco-produto">
+                            <span class="preco">R$ 3,00</span>
+                        </div>
+
+                        <button class="btn-adicionar" data-nome="Trufa de Morango" data-preco="3"
+                            data-img="trufa-morango.jpeg">
+                            Adicionar
+                        </button>
+
+                    </div>
+                </article>
+            </div>
+
+        </section>
+    </main>
+   <div id="carrinho" class="carrinho">
+
+    <h3>Seu Carrinho 🛒</h3>
+
+    <p>
+        Itens no carrinho: <span id="contador-carrinho">0</span>
+    </p>
+
+    <ul id="lista-carrinho"></ul>
+
+    <div class="total-box">
+        Total: R$ <span id="total">0</span>
+    </div>
+
+    <button class="btn-finalizar" onclick="finalizarPedido()">
+        Finalizar Pedido
+    </button>
+
+    <button class="btn-limpar" onclick="limparCarrinho()">
+        Limpar Carrinho
+    </button>
+
+    <button class="btn-fechar" onclick="fecharCarrinho()">
+        Fechar
+    </button>
+
+</div>
+
+
+<!-- BOTÃO DO CARRINHO FLUTUANTE -->
+
+<div class="carrinho-flutuante" onclick="abrirCarrinho()">
+    🛒 <span id="contador-carrinho-flutuante">0</span>
+</div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay" onclick="fecharCarrinho()"></div>
+
+    <section id="sobre" class="sobre">
+
+        <h2>Sobre a Doces da Nega</h2>
+
+        <p>
+            A Doces da Nega produz doces artesanais feitos com ingredientes selecionados.
+            Nosso objetivo é levar sabor e qualidade para cada cliente, com brigadeiros,
+            trufas e ovos de Páscoa preparados com carinho.
+        </p>
+
+    </section>
+
+
+    <section id="contato" class="contato">
+
+        <h2>Contato</h2>
+        <a class="botao-whatsapp" href="https://wa.me/5511934595886" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> Fazer pedido no WhatsApp
+        </a>
+        <section class="mapa">
+
+            <h2>Onde estamos</h2>
+            <p>
+                📍 Rua Inajar de Souza 4066<br>
+                Cachoeirinha – São Paulo / SP<br>
+                CEP: 02675-070
+            </p>
+            <iframe src="https://www.google.com/maps?q=Rua+Inajar+de+Souza+4066+Cachoeirinha+São+Paulo&output=embed"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+
+        </section>
+        <!-- Rodapé -->
+        <footer class="rodape">
+
+            <h3>Doces da Nega</h3>
+
+            <p>Doces artesanais feitos com carinho 🍫</p>
+            <p>© 2026 Doces da Nega - Todos os direitos reservados</p>
+
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
